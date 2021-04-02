@@ -1,0 +1,7 @@
+Command to create a new module. This command will create the basic (standar) structure for a module.
+docker exec my-odoo-container-name /usr/bin/odoo scaffold openacademy /mnt/extra-addons
+
+After run docker-compose up -d, add this path to the addons_path on the config/odoo.conf file
+/mnt/extra-addons
+
+hueq-g4cm-nh67
